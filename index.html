@@ -1,69 +1,36 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Моє хобі — програмування</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cs team</title>
+    <h1> 
+        <strong>Онлайн курси ІТ 'CS team'</strong>
+    </h1>
 </head>
 <body>
-
-    <h1>Моє хобі — програмування</h1>
-
-    <nav>
-        <a href="index.html">Головна</a> |
-        <a href="info.html">Інформація</a>
-    </nav>
-
-    <p><a href="#hobby">Перейти до мого хобі</a></p>
-
-    <h2 id="hobby">Чому мені подобається програмування</h2>
-
-    <p>
-        Програмування допомагає мені створювати цікаві проєкти.
-        <strong>Це моє улюблене хобі.</strong>
-    </p>
-
-    <h3>Що я роблю під час занять</h3>
-
-    <p>
-        Я вивчаю HTML та інші мови програмування.<br>
-        <em>Мені подобається створювати власні сайти.</em>
-    </p>
-
-    <hr>
-
-    <h2>Що мені подобається</h2>
-
-    <ul>
-        <li>Створювати сайти</li>
-        <li>Вивчати програмування</li>
-        <li>Розв'язувати задачі</li>
-        <li>Створювати проєкти</li>
-    </ul>
-
-    <h3>Як я займаюся</h3>
-
-    <ol>
-        <li>Вивчаю теорію</li>
-        <li>Пишу код</li>
-        <li>Виправляю помилки</li>
-    </ol>
-
-    <div>
-        <h2>Моя мета</h2>
-        <p>Я хочу добре знати програмування та створювати власні проєкти.</p>
-        <button>Моя мета</button>
-    </div>
-
-    <figure>
-        <img src="images/image.jpg" alt="Програмування на комп'ютері" width="400">
-        <figcaption>Програмування — моє хобі</figcaption>
-    </figure>
-
-    <p>
-        <a href="https://uk.wikipedia.org/wiki/Програмування" target="_blank">
-            Дізнатися більше про програмування
-        </a>
-    </p>
-
-</body>
+    <form>
+        <p><input type="text" required placeholder="Введіть ваше ім'я та прівище"></p>
+        <p><input type="password" required placeholder="Введіть ваш пароль" minlength="8"></p>
+        <p><input type="email" placeholder="Введіть вашу електрону пошту"></p>
+        <p><input type="number"  placeholder="Введіть ваш номер телефону"></p>
+        <p><input type="date" min="1956-09-04" max="2012-09-04"  placeholder="Введіть ваш день народження"></p>
+    <h3>Виберіть рівень підготовки</h3>
+        <p><input type="radio" name="course" checked>Початковий</p>
+        <p><input type="radio" name="course">Середній</p>
+        <p><input type="radio" name="course">Високий</p>
+        <h3>Виберіть тему(теми), яка вас цікавить:</h3>
+        <p><input type="checkbox" name="tema">HTML</p>
+        <p><input type="checkbox" name="tema">CSS</p>
+        <p><input type="checkbox" name="tema">JavaScript</p>
+        <p><input type="checkbox" name="tema">Angular</p>
+<h3>Виберіть форму навчання</h3>
+<p><select name="city">
+        <option value="online">Онлайн</option>
+        <option value="offline">Очно</option>
+        <option value="online+offline">Змішаний формат</option>
+    </select></p>
+<label>Чому ви хочете пройти цей курс?</label>
+        <p><textarea maxlength="300"></textarea></p>
+    </form>
 </html>
