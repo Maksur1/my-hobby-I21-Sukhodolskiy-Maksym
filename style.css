@@ -1,0 +1,23 @@
+.HTML {
+    border: 3px solid greenyellow;
+}
+
+.CSS {
+    border: 3px solid blue;
+}
+
+.JS {
+    border: 3px solid orange;
+}
+
+.HTML_text {
+    color:green;
+}
+
+.CSS_text {
+    color: blueviolet;
+}
+
+.JS_text {
+    color: orangered;
+}
